@@ -12,8 +12,8 @@ INFURA_TOKEN = os.getenv('WEB3_INFURA_PROJECT_ID')
 
 from web3.auto.infura import w3
 
-GWEI_THRESHOLD = 200     # under this threshold, the bot send a msg
-MSG_COOLDOWN = 10        # wait 1 hour if the sent a msg
+GWEI_THRESHOLD = 80      # under this threshold, the bot send a msg
+MSG_COOLDOWN = 3600      # wait 1 hour if the sent a msg
 ETH_TX_REFRESH_RATE = 15 # time between 2 ethereum Tx
 
 
